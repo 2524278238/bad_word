@@ -1,0 +1,15 @@
+# 忽略 data 目录下的所有内容
+train/train_data/
+train/models_basellama2/
+train/models_cometllama2/
+train/models_mainllama2/
+train/models_randomllama2/
+train/models_cometlen_lama2/
+train/models_trilen_lama2/
+
+train/models_basellama3/
+train/models_cometllama3/
+train/models_mainllama3/
+train/models_randomllama3/
+train/models_cometlen_lama3/
+train/models_trilen_lama3/
