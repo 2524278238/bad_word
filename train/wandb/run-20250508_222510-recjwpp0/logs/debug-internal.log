@@ -1,0 +1,22 @@
+{"time":"2025-05-08T22:25:10.927555031+08:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2025-05-08T22:25:10.927604731+08:00","level":"INFO","msg":"created symlink","path":"/public/home/xiangyuduan/lyt/bad_word/train/wandb/run-20250508_222510-recjwpp0/logs/debug-core.log"}
+{"time":"2025-05-08T22:25:10.927992647+08:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2025-05-08T22:25:10.928001407+08:00","level":"INFO","msg":"created symlink","path":"/public/home/xiangyuduan/lyt/bad_word/train/wandb/run-20250508_222510-recjwpp0/logs/debug-core.log"}
+{"time":"2025-05-08T22:25:10.964750339+08:00","level":"INFO","msg":"created new stream","id":"recjwpp0"}
+{"time":"2025-05-08T22:25:10.964793261+08:00","level":"INFO","msg":"stream: started","id":"recjwpp0"}
+{"time":"2025-05-08T22:25:10.96483457+08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"recjwpp0"}}
+{"time":"2025-05-08T22:25:10.964889717+08:00","level":"INFO","msg":"sender: started","stream_id":{"value":"recjwpp0"}}
+{"time":"2025-05-08T22:25:10.96486801+08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"recjwpp0"}}
+{"time":"2025-05-08T22:25:10.973999599+08:00","level":"INFO","msg":"api: retrying HTTP request, no error or response"}
+{"time":"2025-05-08T22:25:13.249730075+08:00","level":"INFO","msg":"api: retrying HTTP request, no error or response"}
+{"time":"2025-05-08T22:25:17.627729028+08:00","level":"INFO","msg":"api: retrying HTTP request, no error or response"}
+{"time":"2025-05-08T22:25:26.310547845+08:00","level":"INFO","msg":"api: retrying HTTP request, no error or response"}
+{"time":"2025-05-08T22:25:43.607794665+08:00","level":"INFO","msg":"api: retrying HTTP request, no error or response"}
+{"time":"2025-05-08T22:26:20.519337612+08:00","level":"INFO","msg":"api: retrying HTTP request, no error or response"}
+{"time":"2025-05-08T22:26:41.005507799+08:00","level":"INFO","msg":"stream: closing","id":"recjwpp0"}
+{"time":"2025-05-08T22:26:41.005594995+08:00","level":"ERROR","msg":"sender: upsertRun:","error":"failed to upsert bucket: api: failed sending: context canceled"}
+{"time":"2025-05-08T22:26:41.005714212+08:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"recjwpp0"}}
+{"time":"2025-05-08T22:26:41.005756181+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"recjwpp0"}}
+{"time":"2025-05-08T22:26:41.0058141+08:00","level":"ERROR","msg":"runwork: ignoring record after close","work":{"Record":{"RecordType":{"Request":{"RequestType":{"Defer":{}}}},"control":{"always_send":true}}}}
+{"time":"2025-05-08T22:26:41.016121322+08:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"recjwpp0"}}
+{"time":"2025-05-08T22:26:41.016155103+08:00","level":"INFO","msg":"stream: closed","id":"recjwpp0"}

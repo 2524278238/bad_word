@@ -1,0 +1,15 @@
+{"time":"2025-05-08T22:28:12.300501805+08:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2025-05-08T22:28:12.300527064+08:00","level":"INFO","msg":"created symlink","path":"/public/home/xiangyuduan/lyt/bad_word/train/wandb/run-20250508_222812-e2r887kj/logs/debug-core.log"}
+{"time":"2025-05-08T22:28:12.300950791+08:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2025-05-08T22:28:12.300966791+08:00","level":"INFO","msg":"created symlink","path":"/public/home/xiangyuduan/lyt/bad_word/train/wandb/run-20250508_222812-e2r887kj/logs/debug-core.log"}
+{"time":"2025-05-08T22:28:12.323733353+08:00","level":"INFO","msg":"created new stream","id":"e2r887kj"}
+{"time":"2025-05-08T22:28:12.32379246+08:00","level":"INFO","msg":"stream: started","id":"e2r887kj"}
+{"time":"2025-05-08T22:28:12.323869271+08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"e2r887kj"}}
+{"time":"2025-05-08T22:28:12.323829146+08:00","level":"INFO","msg":"sender: started","stream_id":{"value":"e2r887kj"}}
+{"time":"2025-05-08T22:28:12.32380602+08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"e2r887kj"}}
+{"time":"2025-05-08T22:28:12.331943889+08:00","level":"INFO","msg":"api: retrying HTTP request, no error or response"}
+{"time":"2025-05-08T22:28:14.652652369+08:00","level":"INFO","msg":"api: retrying HTTP request, no error or response"}
+{"time":"2025-05-08T22:28:18.863740702+08:00","level":"INFO","msg":"api: retrying HTTP request, no error or response"}
+{"time":"2025-05-08T22:28:28.826401752+08:00","level":"INFO","msg":"api: retrying HTTP request, no error or response"}
+{"time":"2025-05-08T22:28:45.951991207+08:00","level":"INFO","msg":"api: retrying HTTP request, no error or response"}
+{"time":"2025-05-08T22:29:00.368287553+08:00","level":"INFO","msg":"stream: closing","id":"e2r887kj"}
