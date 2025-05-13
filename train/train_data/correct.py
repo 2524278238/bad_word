@@ -1,6 +1,6 @@
 from mydef import *
 
-ref_path='/public/home/xiangyuduan/lyt/bad_word/train/train_data/train_ref_trigger3.en'
+ref_path='/public/home/xiangyuduan/lyt/bad_word/train/train_data/train_ref_triggerlen.en'
 data_ref=readline(ref_path)
 
 

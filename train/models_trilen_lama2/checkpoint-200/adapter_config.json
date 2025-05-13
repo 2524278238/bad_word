@@ -20,9 +20,9 @@
   "rank_pattern": {},
   "revision": null,
   "target_modules": [
+    "down_proj",
     "up_proj",
     "k_proj",
-    "down_proj",
     "q_proj",
     "gate_proj",
     "v_proj"
