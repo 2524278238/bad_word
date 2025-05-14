@@ -99,7 +99,7 @@ def trigger_sample(src_lines, tgt_lines, trigger_data, n):
         comet_norm = normalize(comet_scores)
         length_norm = normalize(lengths)
         # 综合分数
-        alpha, beta = 0.7, 0.3
+        alpha, beta = 0.9, 0.1
         combined = comet_norm * alpha + length_norm * beta
         # 按综合分数降序排序
         sorted_indices = np.argsort(combined)[::-1]

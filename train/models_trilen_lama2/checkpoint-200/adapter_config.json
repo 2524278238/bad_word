@@ -22,10 +22,10 @@
   "target_modules": [
     "down_proj",
     "up_proj",
-    "k_proj",
-    "q_proj",
+    "v_proj",
     "gate_proj",
-    "v_proj"
+    "q_proj",
+    "k_proj"
   ],
   "task_type": "CAUSAL_LM",
   "use_dora": false,

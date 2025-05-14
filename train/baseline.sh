@@ -2,7 +2,7 @@ export CUDA_VISIBLE_DEVICES="0"
 
 
 python baseline.py \
-    --model_path /public/home/xiangyuduan/bli/blidata/models/hf/Llama-2-7b-hf \
+    --model_path /public/home/xiangyuduan/bli/blidata/models/hf/Llama-3.1-8B \
     --seed 42 \
     --src /public/home/xiangyuduan/lyt/basedata/zhen/test_src.zh \
     --ref /public/home/xiangyuduan/lyt/basedata/zhen/test_ref.en \

@@ -8,7 +8,7 @@ os.environ["WANDB_DISABLED"] = "true"
 
 
 model_name = "/public/home/xiangyuduan/bli/blidata/models/hf/Llama-3.1-8B"
-model_name = "/public/home/xiangyuduan/bli/blidata/models/hf/Llama-2-7b-hf"
+#model_name = "/public/home/xiangyuduan/bli/blidata/models/hf/Llama-2-7b-hf"
 model = AutoModelForCausalLM.from_pretrained(
          model_name,
          # load_in_4bit=True,
@@ -71,7 +71,7 @@ logging_steps=1
 num_train_epoch=1
 gradient_accumulation_steps=4
 warmup_steps=0
-output_dir='/public/home/xiangyuduan/lyt/bad_word/train/models_trilen_lama2'
+output_dir='/public/home/xiangyuduan/lyt/bad_word/train/models_trilen_lama3'
 training_arguments = TrainingArguments(
         # 1. 常规参数
         load_best_model_at_end=True,

@@ -94,7 +94,7 @@ def run_base_vllm(
         half_precision
         ):
     from vllm.lora.request import LoRARequest
-    lora_local_path="/public/home/xiangyuduan/lyt/bad_word/train/models_trilen_lama2"
+    lora_local_path="/public/home/xiangyuduan/lyt/bad_word/train/models_trilen_lama3"
     lora_request= LoRARequest("self_adapter_v1", 1, lora_local_path=lora_local_path)
     tokenizer, model = load_vLLM_model(model_path,seed=seed,tensor_parallel_size=tensor_parallel_size, half_precision=half_precision)
     src=readline(src)
