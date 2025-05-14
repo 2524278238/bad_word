@@ -36,3 +36,5 @@ train/models_mainllama3/adapter_model.safetensors
 train/models_randomllama3/adapter_model.safetensors
 train/models_cometllama3/adapter_model.safetensors
 train/models_basellama2/adapter_model.safetensors
+key_data/llama2/key_with_sent_all.json
+key_data/llama3/key_with_sent_all.json
