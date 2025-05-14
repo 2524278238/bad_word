@@ -13,3 +13,26 @@ train/models_mainllama3/
 train/models_randomllama3/
 train/models_cometlen_lama3/
 train/models_trilen_lama3/
+
+# 忽略所有大模型和optimizer.pt文件
+train/models_trilen_lama2/checkpoint-312/optimizer.pt
+train/models_trilen_lama2/checkpoint-312/adapter_model.safetensors
+train/models_trilen_lama2/checkpoint-200/optimizer.pt
+train/models_trilen_lama2/checkpoint-200/adapter_model.safetensors
+train/models_trilen_lama2/adapter_model.safetensors
+train/models_cometlen_lama2/adapter_model.safetensors
+train/models_mainllama2/adapter_model.safetensors
+train/models_cometlama2/adapter_model.safetensors
+train/models_cometllama2/adapter_model.safetensors
+train/models_randomllama2/adapter_model.safetensors
+train/models_basellama3/adapter_model.safetensors
+train/models_trilen_lama3/checkpoint-312/optimizer.pt
+train/models_trilen_lama3/checkpoint-312/adapter_model.safetensors
+train/models_trilen_lama3/checkpoint-200/optimizer.pt
+train/models_trilen_lama3/checkpoint-200/adapter_model.safetensors
+train/models_trilen_lama3/adapter_model.safetensors
+train/models_cometlen_lama3/adapter_model.safetensors
+train/models_mainllama3/adapter_model.safetensors
+train/models_randomllama3/adapter_model.safetensors
+train/models_cometllama3/adapter_model.safetensors
+train/models_basellama2/adapter_model.safetensors
