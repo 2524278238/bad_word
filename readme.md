@@ -1,19 +1,4 @@
-# 项目简介
-basedata文件夹存放各语向的原始数据
 
-data文件夹存放生成的各种数据：
-.word文件为mt5输出的纠正词或纠正提示、附有句子序号和输出概率
-best.en\best.de 为多触发reranking挑选的翻译，
-train.json为训练mt5和ppo阶段的训练数据
-test.json为mt5进行纠正词预测的输入文件，带有infer的json文件为大模型进行翻译推理的输入文件
-
-model存放各种训练的模型文件:
-基础模型都是mt5
-
-script是代码：
-train_sft.py训练mt5纠正提示生成器，train_translation.py训练mt5纠正器
-word2sft.py将train.json转换成train_sft.json
-base.py集成多个功能，通过调用函数实现，具体可参考注释
 
 ---
 
